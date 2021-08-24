@@ -48,8 +48,7 @@ protocol _AnyDecodable {
 extension AnyDecodable: _AnyDecodable {}
 
 extension _AnyDecodable {
-    
-    // swiftlint:disable:next cyclomatic_complexity
+
     public init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
 
@@ -80,7 +79,7 @@ extension _AnyDecodable {
 }
 
 extension AnyDecodable: Equatable {
-    
+
     // swiftlint:disable:next cyclomatic_complexity
     public static func == (lhs: AnyDecodable, rhs: AnyDecodable) -> Bool {
         switch (lhs.value, rhs.value) {
@@ -151,7 +150,7 @@ extension AnyDecodable: CustomDebugStringConvertible {
 }
 
 extension AnyDecodable: Hashable {
-    
+
     // swiftlint:disable:next cyclomatic_complexity
     public func hash(into hasher: inout Hasher) {
         switch value {

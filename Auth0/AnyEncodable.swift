@@ -48,7 +48,7 @@ extension AnyEncodable: _AnyEncodable {}
 // MARK: - Encodable
 
 extension _AnyEncodable {
-    
+
     // swiftlint:disable:next cyclomatic_complexity
     public func encode(to encoder: Encoder) throws {
         var container = encoder.singleValueContainer()
@@ -141,7 +141,7 @@ extension _AnyEncodable {
 }
 
 extension AnyEncodable: Equatable {
-    
+
     // swiftlint:disable:next cyclomatic_complexity
     public static func == (lhs: AnyEncodable, rhs: AnyEncodable) -> Bool {
         switch (lhs.value, rhs.value) {
@@ -253,7 +253,7 @@ extension _AnyEncodable {
 }
 
 extension AnyEncodable: Hashable {
-    
+
     // swiftlint:disable:next cyclomatic_complexity
     public func hash(into hasher: inout Hasher) {
         switch value {
