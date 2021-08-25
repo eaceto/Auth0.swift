@@ -77,7 +77,7 @@ extension _AnyDecodable {
         }
     }
 }
-
+/*
 extension AnyDecodable: Equatable {
 
     // swiftlint:disable:next cyclomatic_complexity
@@ -124,7 +124,8 @@ extension AnyDecodable: Equatable {
         }
     }
 }
-
+*/
+/*
 extension AnyDecodable: CustomStringConvertible {
     public var description: String {
         switch value {
@@ -191,3 +192,4 @@ extension AnyDecodable: Hashable {
         }
     }
 }
+*/

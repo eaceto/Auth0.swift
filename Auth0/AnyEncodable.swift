@@ -139,7 +139,7 @@ extension _AnyEncodable {
     }
     #endif
 }
-
+/*
 extension AnyEncodable: Equatable {
 
     // swiftlint:disable:next cyclomatic_complexity
@@ -184,7 +184,8 @@ extension AnyEncodable: Equatable {
         }
     }
 }
-
+*/
+/*
 extension AnyEncodable: CustomStringConvertible {
     public var description: String {
         switch value {
@@ -208,6 +209,7 @@ extension AnyEncodable: CustomDebugStringConvertible {
         }
     }
 }
+*/
 
 extension AnyEncodable: ExpressibleByNilLiteral {}
 extension AnyEncodable: ExpressibleByBooleanLiteral {}
@@ -251,7 +253,7 @@ extension _AnyEncodable {
         self.init([AnyHashable: Any](elements, uniquingKeysWith: { first, _ in first }))
     }
 }
-
+/*
 extension AnyEncodable: Hashable {
 
     // swiftlint:disable:next cyclomatic_complexity
@@ -294,3 +296,4 @@ extension AnyEncodable: Hashable {
         }
     }
 }
+*/
