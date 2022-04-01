@@ -7,5 +7,5 @@ gem 'slather', '>= 2.4.7'
 plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
 eval_gemfile(plugins_path) if File.exist?(plugins_path)
 
-gem "cocoapods", "~> 1.7"
+gem "cocoapods", "~> 1.10", ">= 1.10.2"
 gem "mini_magick", ">= 4.9.4"
