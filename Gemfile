@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'fastlane', '>= 2.129.0'
+gem 'fastlane', '>= 2.191.0'
 gem 'semantic',  '~> 1.5'
 gem 'slather', '>= 2.4.7'
 
